@@ -83,10 +83,10 @@ public class MbUtils {
 		try {
 			absolute = new URI(id);
 		} catch (URISyntaxException e) {
-			return "http://musicbrainz.org/" + resType.toLowerCase() + "/" + id;
+			return "http://musicbrainz.eu/" + resType.toLowerCase() + "/" + id;
 		}
 		if (absolute.getScheme() == null) {
-			return "http://musicbrainz.org/" + resType.toLowerCase() + "/" + id;
+			return "http://musicbrainz.eu/" + resType.toLowerCase() + "/" + id;
 		}
 		
 		// may be already an absolute URI
@@ -110,7 +110,7 @@ public class MbUtils {
 	 * checking only works if <code>uriStr</code> is an absolute URI, of course.
 	 * 
 	 * Example:
-	 * &gt;&gt;&gt;  MBUtils.extractUuid('http://musicbrainz.org/artist/c0b2500e-0cef-4130-869d-732b23ed9df5', 'artist')
+	 * &gt;&gt;&gt;  MBUtils.extractUuid('http://musicbrainz.eu/artist/c0b2500e-0cef-4130-869d-732b23ed9df5', 'artist')
 	 * 'c0b2500e-0cef-4130-869d-732b23ed9df5'
 	 * 
 	 * @param uriStr A string containing a MusicBrainz ID (an URI), or null
@@ -133,7 +133,7 @@ public class MbUtils {
 			return uriStr; // not really a valid URI, probably the UUID
 		}
 		
-		if (!"http".equals(uri.getScheme()) || !"musicbrainz.org".equals(uri.getHost())) {
+		if (!"http".equals(uri.getScheme()) || !"musicbrainz.eu".equals(uri.getHost())) {
 			throw new IllegalArgumentException(uri.toString() + " is no MB ID");
 		}
 		
@@ -185,7 +185,7 @@ public class MbUtils {
 	 */
 	public static String extractResTypeFromURI (String idUri)
 	{
-		String s = idUri.replace("http://musicbrainz.org/", "");
+		String s = idUri.replace("http://musicbrainz.eu/", "");
                 
                       String[] f = s.split("/");
 		if (f == null || f.length < 2)

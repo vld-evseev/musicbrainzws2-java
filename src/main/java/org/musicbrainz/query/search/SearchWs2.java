@@ -14,7 +14,7 @@ import org.musicbrainz.wsxml.element.ListElement;
  * 
  * Searches are implemented by the search server and are documented at 
  * Next_Generation_Schema/SearchServerXML. 
- * see: http://musicbrainz.org/doc/Next_Generation_Schema/SearchServerXML
+ * see: http://musicbrainz.eu/doc/Next_Generation_Schema/SearchServerXML
  *
  * Use a filter subclass to set the search parameters.
  * Return a SearchResult subtype.

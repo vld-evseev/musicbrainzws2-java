@@ -135,7 +135,7 @@ public class Work extends Controller{
         if (work.getId() == null) return work;
                                                 
         // save some field that come from search, but is missing in
-        // lookUp http://tickets.musicbrainz.org/browse/MBS-3982
+        // lookUp http://tickets.musicbrainz.eu/browse/MBS-3982
         setIncoming(work);
         
         return getComplete(work.getId());
@@ -153,7 +153,7 @@ public class Work extends Controller{
         if (work.getId() == null) return work;
                                                         
         // save some field that come from search, but is missing in
-        // lookUp http://tickets.musicbrainz.org/browse/MBS-3982
+        // lookUp http://tickets.musicbrainz.eu/browse/MBS-3982
         setIncoming(work);
         
         return lookUp(work.getId());

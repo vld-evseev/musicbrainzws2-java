@@ -28,7 +28,7 @@ import java.net.URL;
 
 /**
  * Direct translator for MusicBrainz libdiscid, as found at
- * <a href="http://musicbrainz.org/doc/libdiscid">http://musicbrainz.org/doc/libdiscid</a>
+ * <a href="http://musicbrainz.eu/doc/libdiscid">http://musicbrainz.eu/doc/libdiscid</a>
  * While it is possible, this class is not intended to be used directly.  Please use the {@link DiscInfo} utility
  * class.
  * @see DiscInfo
@@ -268,7 +268,7 @@ public class LibDiscId {
    * Return an URL for retrieving CD information from MusicBrainz' web service
    *
    * The URL provides the CD information in XML. 
-   * See http://musicbrainz.org/development/mmd for details.
+   * See http://musicbrainz.eu/development/mmd for details.
    *
    * The returned string is only valid as long as the DiscId object exists.
    *

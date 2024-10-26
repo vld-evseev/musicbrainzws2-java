@@ -234,7 +234,7 @@ public class ReleaseGroupWs2 extends EntityWs2 {
         if (firstReleaseDateStr.length() == 7) 
                 f = new SimpleDateFormat("yyyy-MM");
 
-        // Values returned by musicbrainz.org are always in UTC!
+        // Values returned by musicbrainz.eu are always in UTC!
         f.setTimeZone(TimeZone.getTimeZone("UTC"));
 
         try {

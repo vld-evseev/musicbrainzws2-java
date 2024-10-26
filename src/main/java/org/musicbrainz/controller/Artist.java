@@ -179,7 +179,7 @@ public class Artist extends Controller{
         if (artist.getId() == null) return artist;
                 
         // save some field that come from search, but is missing in
-        // lookUp http://tickets.musicbrainz.org/browse/MBS-3982
+        // lookUp http://tickets.musicbrainz.eu/browse/MBS-3982
         setIncoming(artist);
         
         return getComplete(artist.getId());
@@ -203,7 +203,7 @@ public class Artist extends Controller{
         if (artist.getId() == null) return artist;
         
         // save some field that come from search, but is missing in
-        // lookUp http://tickets.musicbrainz.org/browse/MBS-3982
+        // lookUp http://tickets.musicbrainz.eu/browse/MBS-3982
         setIncoming(artist);
         
         return lookUp(artist.getId());

@@ -127,7 +127,7 @@ public class Collection extends Controller{
         if (collection.getId() == null) return collection;
 
         // save some field that come from search, but is missing in
-        // lookUp http://tickets.musicbrainz.org/browse/MBS-3982
+        // lookUp http://tickets.musicbrainz.eu/browse/MBS-3982
         setIncoming(collection);
         
         return getComplete(collection.getId());
@@ -137,7 +137,7 @@ public class Collection extends Controller{
         if (collection.getId() == null) return collection;
         
         // save some field that come from search, but is missing in
-        // lookUp http://tickets.musicbrainz.org/browse/MBS-3982
+        // lookUp http://tickets.musicbrainz.eu/browse/MBS-3982
         setIncoming(collection);
         
         return lookUp(collection.getId());

@@ -11,7 +11,7 @@ import org.musicbrainz.coverart.ImageGetter;
  * <p>A  Cover Art Archive definition.
  *       
  * ... nothing found in MB documentation.
- * see http://tickets.musicbrainz.org/browse/MBS-4536
+ * see http://tickets.musicbrainz.eu/browse/MBS-4536
 	 
  * </p>
  */

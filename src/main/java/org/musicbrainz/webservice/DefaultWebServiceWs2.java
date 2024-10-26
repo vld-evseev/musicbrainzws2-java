@@ -41,7 +41,7 @@ public abstract class DefaultWebServiceWs2 extends DomainsWs2 implements WebServ
     * @see DefaultWebServiceWs2#createUserAgent()
     * @see DefaultWebServiceWs2#createUserAgent(String, String, String)
     * @see <a
-    * href="https://musicbrainz.org/doc/XML_Web_Service/Rate_Limiting#How_can_I_be_a_good_citizen_and_be_smart_about_using_the_Web_Service.3F">How
+    * href="https://musicbrainz.eu/doc/XML_Web_Service/Rate_Limiting#How_can_I_be_a_good_citizen_and_be_smart_about_using_the_Web_Service.3F">How
     * can I be a good citizen and be smart about using the Web Service?
     * </a>
     */
@@ -55,7 +55,7 @@ public abstract class DefaultWebServiceWs2 extends DomainsWs2 implements WebServ
     * @see DefaultWebServiceWs2#createUserAgent()
     * @see DefaultWebServiceWs2#createUserAgent(String, String, String)
     * @see <a
-    * href="https://musicbrainz.org/doc/XML_Web_Service/Rate_Limiting#How_can_I_be_a_good_citizen_and_be_smart_about_using_the_Web_Service.3F">How
+    * href="https://musicbrainz.eu/doc/XML_Web_Service/Rate_Limiting#How_can_I_be_a_good_citizen_and_be_smart_about_using_the_Web_Service.3F">How
     * can I be a good citizen and be smart about using the Web Service?
     * </a>
     */
@@ -68,7 +68,7 @@ public abstract class DefaultWebServiceWs2 extends DomainsWs2 implements WebServ
     * @see DefaultWebServiceWs2#createUserAgent()
     * @see DefaultWebServiceWs2#createUserAgent(String, String, String)
     * @see <a
-    * href="https://musicbrainz.org/doc/XML_Web_Service/Rate_Limiting#How_can_I_be_a_good_citizen_and_be_smart_about_using_the_Web_Service.3F">How
+    * href="https://musicbrainz.eu/doc/XML_Web_Service/Rate_Limiting#How_can_I_be_a_good_citizen_and_be_smart_about_using_the_Web_Service.3F">How
     * can I be a good citizen and be smart about using the Web Service?
     * </a>
     */
@@ -116,7 +116,7 @@ public abstract class DefaultWebServiceWs2 extends DomainsWs2 implements WebServ
 
       /*All POST requests require authentication. You should authenticate using HTTP Digest,
      * use the same username and password you use to access the main 
-     * http://musicbrainz.org website. The realm is "musicbrainz.org".
+     * http://musicbrainz.eu website. The realm is "musicbrainz.eu".
 
      POST requests should always include a 'client' parameter in the URL (not the body). 
      * The value of 'client' should be the ID of the client software submitting data. 

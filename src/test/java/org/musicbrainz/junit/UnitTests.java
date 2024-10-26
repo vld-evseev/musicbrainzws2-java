@@ -62,7 +62,7 @@ public class UnitTests {
 
     String username = "test";
     String password = "mb"; // This is a development server; all passwords have been reset to "mb".
-    String wsHost = "test.musicbrainz.org";
+    String wsHost = "test.musicbrainz.eu";
     String client = "xxx-1.02beta";
 
     String labelName = "EMI";
@@ -232,7 +232,7 @@ public class UnitTests {
         System.out.println(artist.getUserRating().getAverageRating());
     }
 
-    @Ignore // Unfortunately, test.musicbrainz.org returns 502
+    @Ignore // Unfortunately, test.musicbrainz.eu returns 502
     @Test
     public void AddTagsAndRating() throws MBWS2Exception {
 
@@ -269,7 +269,7 @@ public class UnitTests {
      * Tests if the correct encoding is used for tag submission.
      * See https://github.com/schnatterer/musicbrainzws2-java/pull/2 for details.
      */
-    @Ignore // Unfortunately, test.musicbrainz.org returns 502
+    @Ignore // Unfortunately, test.musicbrainz.eu returns 502
     @Test
     public void AddTagsEncoding() throws MBWS2Exception {
         ReleaseGroup controller = new ReleaseGroup();
@@ -1011,7 +1011,7 @@ public class UnitTests {
         Release release = new Release();
 
         //search for release by pinkFloyd released in 1982
-        // (see: http://musicbrainz.org/doc/Text_Search_Syntax).
+        // (see: http://musicbrainz.eu/doc/Text_Search_Syntax).
 
         release.search("date:1990-??-?? AND creditname:pink floyd");
 
