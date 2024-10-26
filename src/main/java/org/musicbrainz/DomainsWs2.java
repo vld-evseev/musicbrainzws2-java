@@ -27,15 +27,15 @@ public abstract class DomainsWs2 {
     /**
     * Default namespace prefix for all MusicBrainz metadata.
     */ 
-    public static final String NS_MMD_2_PREFIX = "http://musicbrainz.eu/ns/mmd-2.0#";
+    public static final String NS_MMD_2_PREFIX = "http://musicbrainz.org/ns/mmd-2.0#";
     /**
     * Namespace prefix for relations.
     */
-    public static final String NS_REL_2_PREFIX= "http://musicbrainz.eu/ns/rel-2.0#";
+    public static final String NS_REL_2_PREFIX= "http://musicbrainz.org/ns/rel-2.0#";
     /**
     * Namespace prefix for MusicBrainz extensions.
     */
-    public static final String NS_EXT_2_PREFIX = "http://musicbrainz.eu/ns/ext#-2.0";
+    public static final String NS_EXT_2_PREFIX = "http://musicbrainz.org/ns/ext#-2.0";
    
     public static final Namespace NS_MMD_2 = Namespace.getNamespace(NS_MMD_2_PREFIX);
     public static final Namespace NS_EXT_2 = Namespace.getNamespace(EntityWs2.NS_EXT_2_PREFIX);
